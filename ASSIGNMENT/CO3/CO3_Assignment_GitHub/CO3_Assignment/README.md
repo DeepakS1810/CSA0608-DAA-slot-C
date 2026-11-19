@@ -1,7 +1,7 @@
 # CO3 Assignment 3 – Design and Analysis of Algorithms
 
-**Student:** H SARAVANA  
-**Register Number:** 192511397  
+**Student:** S DEEPAK
+**Register Number:** 192511124
 **Course:** CSA06 – Design and Analysis of Algorithms  
 **Department:** Computer Science and Engineering  
 **Pair members:** Student A and Student B (partner name intentionally blank)

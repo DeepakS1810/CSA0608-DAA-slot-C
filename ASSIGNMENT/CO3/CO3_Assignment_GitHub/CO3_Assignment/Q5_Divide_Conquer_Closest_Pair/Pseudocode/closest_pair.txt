@@ -1,0 +1,9 @@
+CLOSEST(Px,Py)
+ if |P|<=3: return brute force result
+ split Px at median x into Lx,Rx
+ partition Py into Ly,Ry in linear time
+ left=CLOSEST(Lx,Ly); right=CLOSEST(Rx,Ry)
+ best=min(left.distance,right.distance)
+ build strip of points within best distance of dividing line, in y-order
+ compare each strip point only with the next constant number of points
+ return best pair

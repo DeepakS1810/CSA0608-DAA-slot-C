@@ -1,0 +1,6 @@
+SELECT(A,k)
+ if |A|<=5: sort and return A[k]
+ split A into groups of at most 5; sort each group; collect medians
+ pivot=SELECT(medians, middle index)
+ partition A into <pivot, =pivot, >pivot
+ recurse only into the partition containing k; adjust k for skipped items

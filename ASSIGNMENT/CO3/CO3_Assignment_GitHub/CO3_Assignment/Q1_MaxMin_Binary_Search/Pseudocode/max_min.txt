@@ -1,0 +1,16 @@
+MAX-MIN(A,l,r)
+ if l=r: return (A[l],A[l])
+ if r=l+1: compare once and return (smaller,larger)
+ m=floor((l+r)/2)
+ (min1,max1)=MAX-MIN(A,l,m)
+ (min2,max2)=MAX-MIN(A,m+1,r)
+ return (min(min1,min2), max(max1,max2))
+
+BINARY-SEARCH(A,target)
+ low=0; high=n-1
+ while low<=high:
+   mid=floor((low+high)/2)
+   if A[mid]=target: return mid
+   if A[mid]<target: low=mid+1
+   else: high=mid-1
+ return NOT-FOUND

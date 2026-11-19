@@ -1,0 +1,5 @@
+n,merge_median_microseconds,quicksort_median_microseconds
+1000,48.904,22.384
+3000,200.703,98.789
+6000,441.746,228.905
+10000,765.323,443.148

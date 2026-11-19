@@ -1,0 +1,8 @@
+KARATSUBA(x,y)
+ if either operand is small: return x*y
+ n=max(number of digits of x,y); m=floor(n/2)
+ x=a*10^m+b; y=c*10^m+d
+ z0=KARATSUBA(b,d)
+ z2=KARATSUBA(a,c)
+ z1=KARATSUBA(a+b,c+d)-z2-z0
+ return z2*10^(2m)+z1*10^m+z0

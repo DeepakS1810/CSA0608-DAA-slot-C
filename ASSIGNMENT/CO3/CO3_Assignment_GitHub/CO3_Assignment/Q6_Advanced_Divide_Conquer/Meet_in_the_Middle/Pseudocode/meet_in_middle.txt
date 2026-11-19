@@ -1,0 +1,8 @@
+SUBSET-SUM-MITM(A,target)
+ split A into left and right halves
+ generate every subset sum of each half
+ sort right-half sums
+ for each left sum x:
+   binary-search for target-x in right sums
+   if found return TRUE
+ return FALSE

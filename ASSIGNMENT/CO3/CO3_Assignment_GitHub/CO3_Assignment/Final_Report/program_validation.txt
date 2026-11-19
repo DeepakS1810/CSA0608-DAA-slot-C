@@ -1,0 +1,84 @@
+Q1_MaxMin_Binary_Search/Implementation_Code/max_min.cpp
+STATUS: PASS
+OUTPUT:
+Minimum = 1
+Maximum = 14
+Comparisons = 10
+WARNINGS:
+
+
+Q1_MaxMin_Binary_Search/Implementation_Code/binary_search.cpp
+STATUS: PASS
+OUTPUT:
+Target 23: found at index 5, comparisons=5
+Target 24: not found, comparisons=8
+WARNINGS:
+
+
+Q2_MergeSort_QuickSort/Implementation_Code/merge_sort.cpp
+STATUS: PASS
+OUTPUT:
+Sorted: 3 9 10 27 38 43 82 
+Merge comparisons=14
+WARNINGS:
+
+
+Q2_MergeSort_QuickSort/Implementation_Code/quick_sort.cpp
+STATUS: PASS
+OUTPUT:
+Sorted: 1 2 3 4 5 6 7 8 9 10 
+Comparisons=21
+Maximum recursion depth=4
+WARNINGS:
+
+
+Q3_Karatsuba_Multiplication/Implementation_Code/karatsuba.cpp
+STATUS: COMPILE_FAIL
+OUTPUT:
+/mnt/data/CO3_Assignment/Q3_Karatsuba_Multiplication/Implementation_Code/karatsuba.cpp: In function ‘std::string karatsuba(std::string, std::string)’:
+/mnt/data/CO3_Assignment/Q3_Karatsuba_Multiplication/Implementation_Code/karatsuba.cpp:40:32: warning: unused variable ‘b’ [-Wunused-variable]
+   40 |         for(char a:x) for(char b:y) ++karatsubaCount;
+      |                                ^
+/mnt/data/CO3_Assignment/Q3_Karatsuba_Multiplication/Implementation_Code/karatsuba.cpp:40:18: warning: unused variable ‘a’ [-Wunused-variable]
+   40 |         for(char a:x) for(char b:y) ++karatsubaCount;
+      |                  ^
+/mnt/data/CO3_Assignment/Q3_Karatsuba_Multiplication/Implementation_Code/karatsuba.cpp:41:16: error: ‘standardMulNoCount’ was not declared in this scope; did you mean ‘standardCount’?
+   41 |         return standardMulNoCount(x,y);
+      |                ^~~~~~~~~~~~~~~~~~
+      |                standardCount
+WARNINGS:
+
+
+Q4_Strassen_Matrix_Multiplication/Implementation_Code/strassen.cpp
+STATUS: PASS
+OUTPUT:
+Product (top-left original dimension):
+58 42 21 
+54 42 35 
+98 76 74 
+Padded dimension=4
+Correctness check=PASS
+WARNINGS:
+
+
+Q5_Divide_Conquer_Closest_Pair/Implementation_Code/closest_pair.cpp
+STATUS: PASS
+OUTPUT:
+Brute closest distance=1.41421 distance checks=21
+D&C closest distance=1.41421 distance checks=6
+WARNINGS:
+
+
+Q6_Advanced_Divide_Conquer/Median_of_Medians/Implementation_Code/median_of_medians.cpp
+STATUS: PASS
+OUTPUT:
+6-th smallest = 7
+WARNINGS:
+
+
+Q6_Advanced_Divide_Conquer/Meet_in_the_Middle/Implementation_Code/meet_in_middle.cpp
+STATUS: PASS
+OUTPUT:
+Target 9 can be formed
+Half subset counts: 8 and 8
+WARNINGS:

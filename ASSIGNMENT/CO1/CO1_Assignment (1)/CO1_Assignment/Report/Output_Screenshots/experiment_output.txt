@@ -1,0 +1,7 @@
+Python 3.12.3 on Linux-6.18.44-fc-v653-x86_64-with-glibc2.39
+         n    Lin cmp     Lin ms  Bin avg cmp     Bin ms  Hash build ms    Hash ms    Sort ms
+     1,000      1,000     0.0224         8.99    0.00088           0.06    0.00005       0.10
+    10,000     10,000     0.2369        12.39    0.00136           0.72    0.00005       1.23
+   100,000    100,000     2.6649        15.65    0.00258          14.36    0.00011      22.97
+ 1,000,000  1,000,000    24.4670        18.99    0.00332         101.90    0.00012     228.89
+Saved results to /home/claude/CO1_Assignment/Report/Tables_and_Graphs

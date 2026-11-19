@@ -1,0 +1,5 @@
+{'n': 1000, 'linear_mean_ms': 0.02513, 'linear_sd_ms': 0.00261, 'binary_mean_ms': 0.001033, 'binary_sd_ms': 0.000244, 'hash_mean_ms': 6.5e-05, 'hash_sd_ms': 1.7e-05, 'binary_avg_comparisons': 8.95}
+{'n': 10000, 'linear_mean_ms': 0.28431, 'linear_sd_ms': 0.04334, 'binary_mean_ms': 0.001404, 'binary_sd_ms': 3.2e-05, 'hash_mean_ms': 7.5e-05, 'hash_sd_ms': 1.4e-05, 'binary_avg_comparisons': 12.27}
+{'n': 100000, 'linear_mean_ms': 2.32917, 'linear_sd_ms': 0.21279, 'binary_mean_ms': 0.001846, 'binary_sd_ms': 0.000186, 'hash_mean_ms': 8.1e-05, 'hash_sd_ms': 6e-06, 'binary_avg_comparisons': 15.74}
+{'n': 1000000, 'linear_mean_ms': 20.17473, 'linear_sd_ms': 0.38803, 'binary_mean_ms': 0.002598, 'binary_sd_ms': 0.00015, 'hash_mean_ms': 0.000104, 'hash_sd_ms': 1e-06, 'binary_avg_comparisons': 18.93}
+saved /home/claude/CO1_Assignment/Report/Tables_and_Graphs/repeated_trials.csv

@@ -1,0 +1,11 @@
+=== Correctness tests ===
+  PASS  key at first position (0)
+  PASS  key at last position (999)
+  PASS  key in middle (500)
+  PASS  missing key (-1)
+  PASS  missing key (1000)
+  PASS  empty list returns -1
+  PASS  single element found
+  PASS  single element missing
+  PASS  200 random sorted lists: all three agree on found/missing
+RESULT: 9/9 tests passed

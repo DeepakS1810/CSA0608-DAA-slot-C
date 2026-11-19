@@ -1,7 +1,7 @@
-# DSA01-192511397-Assignment2
+# DSA01-192511124-Assignment2
 
-**Student:** H SARAVANA  
-**Register Number:** 192511397  
+**Student:** DEEPAK S
+**Register Number:** 192511124 
 **Course:** Design and Analysis of Algorithms – CO2  
 **Compiler used for generated evidence:** g++ (Debian 14.2.0-19) 14.2.0  
 **Language standard:** C++17
